@@ -348,36 +348,6 @@
         word-break: break-all;
     }
 
-    @media only screen and (max-width: 768px) {
-        #app-root {
-            margin: 0 24px;
-        }
-
-        #introduction {
-            margin: 0 24px;
-        }
-    }
-
-    @media only screen and (max-width: 768px) {
-        #app-root {
-            margin: 0 24px;
-        }
-
-        #introduction {
-            margin: 0 24px;
-        }
-    }
-
-    @media only screen and (max-width: 480px) {
-        #app-root {
-            margin: 0 8px;
-        }
-
-        #introduction {
-            margin: 0 8px;
-        }
-    }
-
     .app-title:hover, .sign-up-subtext:hover, .sales-talk:hover, .title-scrobbles {
         cursor: default;
     }
@@ -553,6 +523,30 @@
 
     .unvisible {
         opacity: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .app-title {
+            font-size: 4em;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .app-title {
+            font-size: 3em;
+            margin: 5.2em 0 0 0;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        .app-title {
+            font-size: 2.5em;
+        }
+
+        .sales-talk {
+            font-size: 1.1em;
+            margin: 0 0 0 0;
+        }
     }
     </style>
 </head>
