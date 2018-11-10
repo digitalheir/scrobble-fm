@@ -19,7 +19,15 @@
     <!--<link rel="stylesheet" href="css/mdc.form-field.min.css">-->
     <!--<link rel="stylesheet" href="css/app.css">-->
     <!--suppress CssUnusedSymbol -->
-    <style>.github-corner:hover .octo-arm {
+    <style>.github-corner {
+        z-index: 999;
+    }
+
+    .github-corner * {
+        z-index: 999;
+    }
+
+    .github-corner:hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out
     }
 
@@ -570,7 +578,8 @@
                 <h1 class="app-title">Scrobble.fm</h1>
                 <p class="sales-talk">The scrobbling alternative that respects your privacy.</p>
                 <div class="sign-up-container visible"><a class="sign-up closed" href="#">Sign up for free</a>
-                    <p class="visible sign-up-subtext">Most recent 500 scrobbles are free.<br>After that, you can choose
+                    <p class="visible sign-up-subtext">Most recent 500 scrobbles are free.<br>Beyond that, you can
+                        choose
                         to upgrade for $0.99/month.</p></div>
             </div>
         </div>
