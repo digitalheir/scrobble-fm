@@ -10,6 +10,7 @@
     <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://storage.googleapis.com/prshim/v1/payment-shim.js"></script>
 
@@ -58,10 +59,6 @@
     }
 
     #app-root {
-        margin: 0 48px;
-    }
-
-    #introduction {
         margin: 0 48px;
     }
 
@@ -285,11 +282,6 @@
         padding-left: 1em;
     }
 
-    .warning {
-        color: red;
-        font-weight: bold;
-    }
-
     .show-output-wrapper {
         margin-top: 1em;
         margin-bottom: 1em;
@@ -444,6 +436,8 @@
 
     .widget-sign-in-field {
         display: block;
+        margin: 5px 0;
+        width: 16em;
     }
 
     .signed-in-username {
@@ -585,19 +579,6 @@
         All rights reserved
     </div>
 </footer>
-<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-<!--suppress JSUnresolvedVariable -->
-<script>
-    // Initialize Firebase
-    firebase.initializeApp({
-        apiKey: "AIzaSyC_-KG68A1E8bowlrE597_P1UPIX9QIQvI",
-        authDomain: "scrobble-fm.firebaseapp.com",
-        databaseURL: "https://scrobble-fm.firebaseio.com",
-        projectId: "scrobble-fm",
-        storageBucket: "scrobble-fm.appspot.com",
-        messagingSenderId: "271763815623"
-    });
-</script>
 <!--suppress HtmlUnknownTarget -->
 <script async src="js/app.js"></script>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

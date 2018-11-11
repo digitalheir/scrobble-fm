@@ -1,0 +1,8 @@
+.widget-sign-in-error span.error {
+    font-size: 14px;
+}
+
+.error, .warning {
+    color: red;
+    font-weight: bold;
+}
