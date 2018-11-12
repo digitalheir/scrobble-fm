@@ -6,3 +6,185 @@
     color: red;
     font-weight: bold;
 }
+
+.api-parameters {
+    display: inline-block;
+    /*display: table;*/
+}
+
+.api-parameter {
+    /*display: table-row;*/
+    display: block;
+    /*min-height: 1.4em;*/
+    margin: 0;
+}
+
+.api-parameter-cell {
+    text-align: left;
+    min-width: 7em;
+    min-height: 1.8em;
+    /*display: table-cell;*/
+    display: inline-block;
+}
+
+.api-parameter-label {
+    width: 15em;
+}
+
+.api-parameter-input {
+}
+
+input {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
+
+input[type=submit] {
+    background-color: #eee;
+    border-radius: 0.5em;
+    min-height: 1.4em;
+    padding: 0.5em 1em;
+}
+
+input[type=checkbox] {
+    background-color: #eee;
+    color: #333;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+button {
+    background-color: #fdfdfd;
+    border-radius: 0.5em;
+}
+
+input[type=text], input[type=password] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #eee 2px solid;
+    background: #f8f8f8;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0.4em 0.8em 0.2em 0.8em;
+}
+
+input[type=text][disabled] {
+    background: #7e7e7e;
+    border-bottom: #717171 2px solid;
+}
+
+input[type=text]:focus {
+    border-bottom: #b9b9b9 2px solid;
+}
+
+.label-input-empty::before, .label-input-set::before, .btn-sign-up-holder::before {
+    padding-right: 12px;
+    font-family: monospace;
+    font-size: 1.5em;
+    line-height: 48px;
+    content: ' ';
+    display: inline-block;
+    width: 1em;
+}
+
+.label-input-empty::before {
+    content: '∗';
+}
+
+.label-input-set::before {
+    color: #388e3c;
+    content: '✓';
+}
+
+.app-title {
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+}
+
+.signed-in-box {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.signed-in-box, .btn-log-in-init {
+    border: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.btn-log-out, .btn-log-in, .btn-log-in-init {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.widget-sign-in-container {
+    display: table;
+}
+
+.widget-sign-in {
+    display: table-row;
+    text-align: right;
+}
+
+.btn-log-in {
+    display: inline-block;
+    /*margin-left: 1em;*/
+
+    padding-left: 1em;
+}
+
+.btn-log-in-init {
+    display: block;
+    line-height: 80px;
+    padding: 0 24px;
+}
+
+.btn-log-in-holder {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.widget-sign-in-fields {
+    display: table-cell;
+}
+
+.widget-sign-in-field {
+    display: block;
+    margin: 5px 0;
+    width: 16em;
+}
+
+.signed-in-username {
+    /*font-weight: bold;*/
+    font-style: normal;
+}
+
+.table-row {
+    width: 100%;
+    display: table-row;
+}
+
+.unvisible {
+    opacity: 0;
+}
+
+.xsmall {
+    font-size: x-small;
+}
+
+.status-line-url {
+    color: grey;
+    text-decoration: none;
+    font-size: small;
+}
+
+.label-input-empty {
+    font-weight: bold;
+}
